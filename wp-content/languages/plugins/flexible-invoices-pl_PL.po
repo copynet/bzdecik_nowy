@@ -1,0 +1,1813 @@
+# Translation of Plugins - Flexible Invoices for WordPress - Stable (latest release) in Polish
+# This file is distributed under the same license as the Plugins - Flexible Invoices for WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-21 07:13:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pl\n"
+"Project-Id-Version: Plugins - Flexible Invoices for WordPress - Stable (latest release)\n"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:27
+msgid "WP version, PHP info"
+msgstr "Wersja WP, PHP info"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:41
+msgid "Anonymized and non-sensitive store usage information"
+msgstr "Tylko niewrażliwe i anonimowe dane o użytkowaniu sklepu"
+
+#: inc/wpdesk-tracker/views/tracker-notice.php:6
+msgid "We need your help to improve <strong>WP Desk plugins</strong>, so they are more useful for you and the rest of <strong>30,000+ users</strong>. By collecting data on how you use our plugins, you will help us a lot. We will not collect any sensitive data, so you can feel safe."
+msgstr "Potrzebujemy Twojej pomocy, aby dalej rozwijać <strong>wtyczki WP Desk</strong> i były one jeszcze bardziej pomocne dla Ciebie i pozostałych ponad <strong>30 000 użytkowników</strong>. Zbierając dane na temat tego jak korzystasz z naszych wtyczek bardzo nam w tym pomożesz. Nie będziemy zbierać żadnych danych wrażliwych, więc możesz czuć się bezpiecznie."
+
+#: templates/invoice/generated_invoice.php:148
+msgid "Price"
+msgstr "Cena"
+
+#: templates/invoice/generated_invoice.php:149
+msgid "Amount"
+msgstr "Wartość"
+
+#: templates/settings/submenu_invoices_corrections.php:37
+msgid "Select when to reset the correction number to 1."
+msgstr "Wybierz kiedy zresetować numer korekty na 1."
+
+#: templates/settings/submenu_invoices_settings.php:98
+msgid "Select when to reset the invoice number to 1."
+msgstr "Wybierz kiedy zresetować numer faktury do 1."
+
+#: templates/settings/submenu_invoices_corrections.php:33
+#: templates/settings/submenu_invoices_settings.php:94
+msgid "Monthly"
+msgstr "Miesięcznie"
+
+#: templates/settings/submenu_invoices_corrections.php:32
+#: templates/settings/submenu_invoices_settings.php:93
+msgid "Yearly"
+msgstr "Rocznie"
+
+#: templates/settings/submenu_invoices_corrections.php:27
+msgid "Correction Number Reset"
+msgstr "Reset numeru korekty"
+
+#: templates/settings/submenu_invoices_settings.php:88
+msgid "Invoice Number Reset"
+msgstr "Reset numeru faktury"
+
+#: templates/settings/submenu_invoices_corrections.php:34
+#: templates/settings/submenu_invoices_settings.php:95
+msgid "None"
+msgstr "Nie resetuj"
+
+#: class/invoicePost.php:409
+#: templates/settings/submenu_invoices_corrections.php:58
+msgid "Corrected invoice "
+msgstr "Faktura korygująca "
+
+#: flexible-invoices.php:278
+msgid "Generate, please wait ..."
+msgstr "Generowanie, proszę czekać …"
+
+#: flexible-invoices.php:279
+msgid "Completed successfully."
+msgstr "Zakończone pomyślnie."
+
+#: flexible-invoices.php:280
+msgid "An unexpected error occurred: "
+msgstr "Wystąpił nieoczekiwany błąd: "
+
+#: flexible-invoices.php:281
+msgid "Note, all unsaved changes will be lost."
+msgstr "Wszystkie niezapisane zmiany zostaną utracone."
+
+#: flexible-invoices.php:282
+msgid "You have sent an invoice to: "
+msgstr "Wysłałeś fakturę do: "
+
+#: flexible-invoices.php:283
+msgid "You can not send an invoice not issued for the WooCommerce order."
+msgstr "Nie możesz wysłać faktury nie wystawionej dla zamówienia WooCommerce."
+
+#: flexible-invoices.php:284
+msgid "Could not send invoice."
+msgstr "Nie można wysłać faktury."
+
+#: flexible-invoices.php:285
+msgid "Note, unsaved changes will not be included in the email you send."
+msgstr "Nie zapisane zmiany nie będą dołączone do wysłanego maila."
+
+#: templates/invoice/generated_correction.php:83
+msgid "Related to invoice:"
+msgstr "Dotyczy faktury:"
+
+#: templates/invoice/generated_correction.php:84
+msgid "Invoice issue date:"
+msgstr "Data wystawienia faktury:"
+
+#: templates/invoice/generated_correction.php:186
+msgid "Before correction"
+msgstr "Przed korektą"
+
+#: templates/invoice/generated_correction.php:236
+msgid "After correction"
+msgstr "Po korekcie"
+
+#: templates/settings/submenu_invoices.php:32
+msgid "Corrections"
+msgstr "Korekty"
+
+#: templates/settings/submenu_invoices_corrections.php:12
+msgid "Correction Settings"
+msgstr "Ustawienia korekt"
+
+#: templates/settings/submenu_invoices_corrections.php:19
+msgid "Automatic Corrections"
+msgstr "Automatyczne korekty"
+
+#: templates/settings/submenu_invoices_corrections.php:22
+msgid "Enable automatic corrections generation for order refunds."
+msgstr "Włącz automatyczne wystawianie korekt do zwracanych zamówień"
+
+#: templates/settings/submenu_invoices_corrections.php:43
+msgid "Next Correction Number"
+msgstr "Numer następnej korekty"
+
+#: templates/settings/submenu_invoices_corrections.php:49
+msgid "Enter the next correction number. Default value is 1 and changes every time an correction is issued. Existing corrections won't be changed."
+msgstr "Wpisz numer następnej faktury. Domyślna wartość to 1 i zmienia się za każdym razem, gdy wystawiana jest korekta. Numery istniejących korekt nie zostaną zmienione."
+
+#: templates/settings/submenu_invoices_corrections.php:54
+msgid "Correction Prefix"
+msgstr "Prefiks korekty"
+
+#: templates/settings/submenu_invoices_corrections.php:63
+msgid "Correction Suffix"
+msgstr "Sufiks korekty"
+
+#: templates/settings/submenu_invoices_corrections.php:67
+msgid "/{MM}/{YYYY}"
+msgstr "/{MM}/{YYYY}"
+
+#: templates/settings/submenu_invoices_corrections.php:72
+msgid "Correction Default Due Time"
+msgstr "Domyślny termin płatności"
+
+#: templates/settings/submenu_invoices_corrections.php:81
+msgid "Correction Reason"
+msgstr "Powód korekty"
+
+#: templates/settings/submenu_invoices_corrections.php:85
+msgid "Refund"
+msgstr "Zwrot zamówienia"
+
+#: inc/wpdesk-tracker/views/tracker-notice.php:10
+msgid "Allow"
+msgstr "Pozwól"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:13
+msgid "Allow & Continue &rarr;"
+msgstr "Pozwól i kontunuuj &rarr;"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:78
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:34
+msgid "Current settings and usage information of WP Desk plugins"
+msgstr "Ustawienia i informacje o użytkowaniu wtyczek WP Desk"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:47
+#: inc/wpdesk-tracker/views/tracker-notice.php:7
+msgid "Find out more &raquo;"
+msgstr "Dowiedz się więcej &raquo;"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:7
+#: inc/wpdesk-tracker/views/tracker-notice.php:5
+msgid "Hey %s,"
+msgstr "Hej %s,"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:32
+msgid "I found a better plugin"
+msgstr "Znalazłem lepszą wtyczkę"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:51
+msgid "I no longer need the plugin"
+msgstr "Nie potrzebuję już wtyczki"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:43
+msgid "I only needed the plugin for a short period"
+msgstr "Potrzebowałem wtyczki tylko przez krótki okres"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:70
+msgid "Kindly tell us the reason so we can improve"
+msgstr "Napisz nam powód abyśmy mogli go poprawić"
+
+#: class/tracker.php:114
+msgid "Opt-in"
+msgstr "Opt-in"
+
+#: class/tracker.php:118
+msgid "Opt-out"
+msgstr "Opt-out"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:33
+msgid "Plugin Usage"
+msgstr "Dane użytkowania wtyczek"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:14
+msgid "Skip"
+msgstr "Pomiń"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:77
+msgid "Skip &amp; Deactivate"
+msgstr "Pomiń i dezaktywuj"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:92
+msgid "Submit &amp; Deactivate"
+msgstr "Wyślij i dezaktywuj"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:24
+msgid "The plugin broke my site"
+msgstr "Wtyczka zepsuła moją stronę"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:16
+msgid "The plugin suddenly stopped working"
+msgstr "Wtyczka nagle przestała działać"
+
+#: flexible-invoices.php:339
+msgid "Upgrade for WooCommerce"
+msgstr "Zaktualizuj do WooCommerce"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:19
+msgid "What permissions are being granted?"
+msgstr "Jakie uprawnienia są przyznawane?"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:35
+msgid "What's the plugin's name?"
+msgstr "Jaka jest nazwa wtyczki?"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:3
+msgid "You are deactivating %s plugin."
+msgstr "Dezaktywowałeś wtyczkę %s."
+
+#: inc/wpdesk-tracker/views/tracker-opt-out-notice.php:3
+msgid "You successfully opted out of collecting usage data by WP Desk. If you change your mind, you can always opt in later in the plugin's quick links."
+msgstr "Twoja rezygnacja ze zbierania danych użytkowania wtyczek przez WP Desk została przyjęta. Jeśli zmienisz zdanie, zawsze możesz włączyć zgodę poprzez szybkie linki w menu wtyczek."
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:26
+msgid "Your Site Overview"
+msgstr "Dane witryny"
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:40
+msgid "Your Store Overview"
+msgstr "Dane sklepu"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:9
+msgid " If you have a moment, please let us know why you are deactivating plugin (anonymous feedback):"
+msgstr " Jeśli masz chwilę, prosimy daj nam znać dlaczego dezaktywowałeś wtyczkę (anonimowa opinia):"
+
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:59
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr "Jest to tymczasowa dezaktywacja, debuguję problem."
+
+#: inc/wpdesk-tracker/views/tracker-connect.php:8
+msgid "Please help us improve our plugins! If you opt-in, we will collect some non-sensitive data and usage information anonymously. If you skip this, that's okay! All plugins will work just fine."
+msgstr "Proszę pomóż nam udoskonalić nasze wtyczki! Jeśli się zgodzisz, będziemy zbierać niewrażliwe dane użytkowania anonimowo. Jeśli pominiesz ten krok, w porządku! Wszystkie wtyczki będą działać."
+
+#: class/invoicePostType.php:170
+msgid "%s invoice marked as paid."
+msgid_plural "%s invoices marked as paid."
+msgstr[0] "%s faktura została oznaczona jako zapłacona."
+msgstr[1] "%s faktury zostały oznaczone jako zapłacone."
+msgstr[2] "%s faktur zostało oznaczonych jako zapłacone."
+
+#: class/invoicePostType.php:939
+msgid "Seller"
+msgstr "Sprzedawca"
+
+#: templates/settings/submenu_invoices_reports.php:6
+msgid "You have Flexible Invoices Advanced Reports active."
+msgstr "Masz włączone Zaawansowane Raporty Faktur."
+
+#: templates/settings/submenu_invoices_reports.php:6
+msgid "Go to Advanced Reports &rarr;"
+msgstr "Przejdź do zaawansowanych raportów &rarr;"
+
+#: templates/settings/submenu_invoices_reports.php:16
+msgid "Buy Advanced Reports for Flexible Invoices to get:"
+msgstr "Kup Zaawansowane Raporty dla faktur, aby otrzymać:"
+
+#: templates/settings/submenu_invoices_reports.php:19
+msgid "Adjust columns displayed in the reports."
+msgstr "Możliwość ustawienia kolumn widocznych w raportach."
+
+#: templates/settings/submenu_invoices_reports.php:20
+msgid "Advanced filtering by: issue date, sale date, payment date, taxes, currencies."
+msgstr "Zaawansowane filtrowanie po: datach wystawienia, sprzedaży, płatności, podatkach, walutach."
+
+#: templates/settings/submenu_invoices_reports.php:21
+msgid "Include or exclude invoices for WooCommerce orders."
+msgstr "Załączać lub wykluczać faktury dla zamówień WooCommerce."
+
+#: templates/settings/submenu_invoices_reports.php:22
+msgid "Sorting by issue date, sale date, payment date."
+msgstr "Sortowanie po datach wystawienia, sprzedaży, płatności."
+
+#: templates/settings/submenu_invoices_reports.php:27
+msgid "https://www.wpdesk.net/products/flexible-invoices-advanced-reports/"
+msgstr "https://www.wpdesk.pl/sklep/faktury-zaawansowane-raporty/"
+
+#: templates/settings/submenu_invoices_reports.php:27
+msgid "Buy Advanced Reports &rarr;"
+msgstr "Kup Zaawansowane Raporty &rarr;"
+
+#: templates/invoice/generated_report.php:29
+#: templates/settings/submenu_invoices_reports.php:51
+msgid "Currency:"
+msgstr "Waluta:"
+
+#: class/core-functions.php:180
+msgid "United Arab Emirates dirham"
+msgstr "Dirham Zjednoczonych Emiratów Arabskich"
+
+#: class/core-functions.php:181
+msgid "Afghan afghani"
+msgstr "Afgani afgańskie"
+
+#: class/core-functions.php:182
+msgid "Albanian lek"
+msgstr "Lek albański"
+
+#: class/core-functions.php:183
+msgid "Armenian dram"
+msgstr "Dram armeński"
+
+#: class/core-functions.php:184
+msgid "Netherlands Antillean guilder"
+msgstr "Gulden antylski"
+
+#: class/core-functions.php:185
+msgid "Angolan kwanza"
+msgstr "Kwanza angolska"
+
+#: class/core-functions.php:186
+msgid "Argentine peso"
+msgstr "Peso argentyńskie"
+
+#: class/core-functions.php:187
+msgid "Australian dollar"
+msgstr "Dolar australijski"
+
+#: class/core-functions.php:188
+msgid "Aruban florin"
+msgstr "Florin arubański"
+
+#: class/core-functions.php:189
+msgid "Azerbaijani manat"
+msgstr "Manat azerski"
+
+#: class/core-functions.php:190
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Marka transferowa Bośni i Hercegowiny"
+
+#: class/core-functions.php:191
+msgid "Barbadian dollar"
+msgstr "Dolar Barbadosu"
+
+#: class/core-functions.php:192
+msgid "Bangladeshi taka"
+msgstr "Taka bengalska"
+
+#: class/core-functions.php:193
+msgid "Bulgarian lev"
+msgstr "Lew bułgarski"
+
+#: class/core-functions.php:194
+msgid "Bahraini dinar"
+msgstr "Dinar Bahrajnu"
+
+#: class/core-functions.php:195
+msgid "Burundian franc"
+msgstr "Frank burundyjski"
+
+#: class/core-functions.php:196
+msgid "Bermudian dollar"
+msgstr "Dolar bermudzki"
+
+#: class/core-functions.php:197
+msgid "Brunei dollar"
+msgstr "Dolar Brunei"
+
+#: class/core-functions.php:198
+msgid "Bolivian boliviano"
+msgstr "Boliviano boliwijskie"
+
+#: class/core-functions.php:199
+msgid "Brazilian real"
+msgstr "Real brazylijski"
+
+#: class/core-functions.php:200
+msgid "Bahamian dollar"
+msgstr "Dolar bahamski"
+
+#: class/core-functions.php:201
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+#: class/core-functions.php:202
+msgid "Bhutanese ngultrum"
+msgstr "Ngultrum bhutański"
+
+#: class/core-functions.php:203
+msgid "Botswana pula"
+msgstr "Pula botswańska"
+
+#: class/core-functions.php:204
+msgid "Belarusian ruble"
+msgstr "Rubel białoruski"
+
+#: class/core-functions.php:205
+msgid "Belize dollar"
+msgstr "Dolar Belize"
+
+#: class/core-functions.php:206
+msgid "Canadian dollar"
+msgstr "Dolar kanadyjski"
+
+#: class/core-functions.php:207
+msgid "Congolese franc"
+msgstr "Frank kongijski"
+
+#: class/core-functions.php:208
+msgid "Swiss franc"
+msgstr "Frank szwajcarski"
+
+#: class/core-functions.php:209
+msgid "Chilean peso"
+msgstr "Peso chilijskie"
+
+#: class/core-functions.php:210
+msgid "Chinese yuan"
+msgstr "Yuan chiński"
+
+#: class/core-functions.php:211
+msgid "Colombian peso"
+msgstr "Peso kolumbijskie"
+
+#: class/core-functions.php:212
+msgid "Costa Rican col&oacute;n"
+msgstr "Colón kostarykański"
+
+#: class/core-functions.php:213
+msgid "Cuban convertible peso"
+msgstr "Peso kubańskie"
+
+#: class/core-functions.php:214
+msgid "Cuban peso"
+msgstr "Peso kubańskie"
+
+#: class/core-functions.php:215
+msgid "Cape Verdean escudo"
+msgstr "Escudo zielonoprzylądkowe"
+
+#: class/core-functions.php:216
+msgid "Czech koruna"
+msgstr "Korona czeska"
+
+#: class/core-functions.php:217
+msgid "Djiboutian franc"
+msgstr "Frank dżibutyjski"
+
+#: class/core-functions.php:218
+msgid "Danish krone"
+msgstr "Korona duńska"
+
+#: class/core-functions.php:219
+msgid "Dominican peso"
+msgstr "Peso dominikańskie"
+
+#: class/core-functions.php:220
+msgid "Algerian dinar"
+msgstr "Dinar algierski"
+
+#: class/core-functions.php:221
+msgid "Egyptian pound"
+msgstr "Funt egipski"
+
+#: class/core-functions.php:222
+msgid "Eritrean nakfa"
+msgstr "Nakfa Erytrei"
+
+#: class/core-functions.php:223
+msgid "Ethiopian birr"
+msgstr "Birr etiopski"
+
+#: class/core-functions.php:224
+msgid "Euro"
+msgstr "Euro"
+
+#: class/core-functions.php:225
+msgid "Fijian dollar"
+msgstr "Dolar Fidżi"
+
+#: class/core-functions.php:226
+msgid "Falkland Islands pound"
+msgstr "Funt falklandzki"
+
+#: class/core-functions.php:227
+msgid "Pound sterling"
+msgstr "Funt szterling"
+
+#: class/core-functions.php:228
+msgid "Georgian lari"
+msgstr "Lari gruziński"
+
+#: class/core-functions.php:229
+msgid "Guernsey pound"
+msgstr "Funt Guernsey"
+
+#: class/core-functions.php:230
+msgid "Ghana cedi"
+msgstr "Cedi ghańskie"
+
+#: class/core-functions.php:231
+msgid "Gibraltar pound"
+msgstr "Funt gibraltarski"
+
+#: class/core-functions.php:232
+msgid "Gambian dalasi"
+msgstr "Dalasi gambijskie"
+
+#: class/core-functions.php:233
+msgid "Guinean franc"
+msgstr "Frank gwinejski"
+
+#: class/core-functions.php:234
+msgid "Guatemalan quetzal"
+msgstr "Quetzal gwatemalski"
+
+#: class/core-functions.php:235
+msgid "Guyanese dollar"
+msgstr " Dolar gujański"
+
+#: class/core-functions.php:236
+msgid "Hong Kong dollar"
+msgstr "Dolar hongkoński"
+
+#: class/core-functions.php:237
+msgid "Honduran lempira"
+msgstr "Lempira honduraska"
+
+#: class/core-functions.php:238
+msgid "Croatian kuna"
+msgstr "Kuna chorwacka"
+
+#: class/core-functions.php:239
+msgid "Haitian gourde"
+msgstr "Gourde haitański"
+
+#: class/core-functions.php:240
+msgid "Hungarian forint"
+msgstr "Forint węgierski"
+
+#: class/core-functions.php:241
+msgid "Indonesian rupiah"
+msgstr "Rupia indonezyjska"
+
+#: class/core-functions.php:242
+msgid "Israeli new shekel"
+msgstr "Szekel izraelski"
+
+#: class/core-functions.php:243
+msgid "Manx pound"
+msgstr "Funt Manx"
+
+#: class/core-functions.php:244
+msgid "Indian rupee"
+msgstr "Indian rupee"
+
+#: class/core-functions.php:245
+msgid "Iraqi dinar"
+msgstr "Dinar irakijski"
+
+#: class/core-functions.php:246
+msgid "Iranian rial"
+msgstr "Rial irański"
+
+#: class/core-functions.php:247
+msgid "Icelandic kr&oacute;na"
+msgstr "Korona islandzka"
+
+#: class/core-functions.php:248
+msgid "Jersey pound"
+msgstr "Funt Jersey"
+
+#: class/core-functions.php:249
+msgid "Jamaican dollar"
+msgstr "Dolar jamajski"
+
+#: class/core-functions.php:250
+msgid "Jordanian dinar"
+msgstr "Dinar jordański"
+
+#: class/core-functions.php:251
+msgid "Japanese yen"
+msgstr "Jen japoński"
+
+#: class/core-functions.php:252
+msgid "Kenyan shilling"
+msgstr "Szyling kenijski"
+
+#: class/core-functions.php:253
+msgid "Kyrgyzstani som"
+msgstr "Sum uzbecki"
+
+#: class/core-functions.php:254
+msgid "Cambodian riel"
+msgstr "Riel kambodżański"
+
+#: class/core-functions.php:255
+msgid "Comorian franc"
+msgstr "Frank komoryjski"
+
+#: class/core-functions.php:256
+msgid "North Korean won"
+msgstr "Won północnokoreański"
+
+#: class/core-functions.php:257
+msgid "South Korean won"
+msgstr "Won południowokoreański"
+
+#: class/core-functions.php:258
+msgid "Kuwaiti dinar"
+msgstr "Dinar kuwejcki"
+
+#: class/core-functions.php:259
+msgid "Cayman Islands dollar"
+msgstr "Dolar kajmański"
+
+#: class/core-functions.php:260
+msgid "Kazakhstani tenge"
+msgstr "Tenge kazachskie"
+
+#: class/core-functions.php:261
+msgid "Lao kip"
+msgstr "Kip laotański"
+
+#: class/core-functions.php:262
+msgid "Lebanese pound"
+msgstr "Funt libański"
+
+#: class/core-functions.php:263
+msgid "Sri Lankan rupee"
+msgstr "Rupia lankijska"
+
+#: class/core-functions.php:264
+msgid "Liberian dollar"
+msgstr "Dolar liberyjski"
+
+#: class/core-functions.php:265
+msgid "Lesotho loti"
+msgstr "Loti sotyjskie"
+
+#: class/core-functions.php:266
+msgid "Libyan dinar"
+msgstr "Dinar libijski"
+
+#: class/core-functions.php:267
+msgid "Moroccan dirham"
+msgstr "Dirham marokański"
+
+#: class/core-functions.php:268
+msgid "Moldovan leu"
+msgstr "Lej mołdawski"
+
+#: class/core-functions.php:269
+msgid "Malagasy ariary"
+msgstr "Ariary malgaski"
+
+#: class/core-functions.php:270
+msgid "Macedonian denar"
+msgstr "Denar macedoński"
+
+#: class/core-functions.php:271
+msgid "Burmese kyat"
+msgstr "Kyat birmański"
+
+#: class/core-functions.php:272
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "Tugrik mongolski"
+
+#: class/core-functions.php:273
+msgid "Macanese pataca"
+msgstr "Pataca Makau"
+
+#: class/core-functions.php:274
+msgid "Mauritanian ouguiya"
+msgstr "Ugija mauretańska"
+
+#: class/core-functions.php:275
+msgid "Mauritian rupee"
+msgstr "Rupia maurytyjska"
+
+#: class/core-functions.php:276
+msgid "Maldivian rufiyaa"
+msgstr "Rupia malediwska"
+
+#: class/core-functions.php:277
+msgid "Malawian kwacha"
+msgstr "Kwacha malawijska"
+
+#: class/core-functions.php:278
+msgid "Mexican peso"
+msgstr "Peso meksykańskie"
+
+#: class/core-functions.php:279
+msgid "Malaysian ringgit"
+msgstr "Ringgit malezyjski"
+
+#: class/core-functions.php:280
+msgid "Mozambican metical"
+msgstr "Metical mozambijski"
+
+#: class/core-functions.php:281
+msgid "Namibian dollar"
+msgstr "Dolar namibijski"
+
+#: class/core-functions.php:282
+msgid "Nigerian naira"
+msgstr "Naira nigeryjska"
+
+#: class/core-functions.php:283
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "Córdoba nikaraguańska"
+
+#: class/core-functions.php:284
+msgid "Norwegian krone"
+msgstr "Korona norweska"
+
+#: class/core-functions.php:285
+msgid "Nepalese rupee"
+msgstr "Rupia nepalska"
+
+#: class/core-functions.php:286
+msgid "New Zealand dollar"
+msgstr "Dolar nowozelandzki"
+
+#: class/core-functions.php:287
+msgid "Omani rial"
+msgstr "Rial omański"
+
+#: class/core-functions.php:288
+msgid "Panamanian balboa"
+msgstr "Balboa panamska"
+
+#: class/core-functions.php:289
+msgid "Peruvian nuevo sol"
+msgstr "Nowy sol peruwiański"
+
+#: class/core-functions.php:290
+msgid "Papua New Guinean kina"
+msgstr "Kina papuaska"
+
+#: class/core-functions.php:291
+msgid "Philippine peso"
+msgstr "Peso filipińskie"
+
+#: class/core-functions.php:292
+msgid "Pakistani rupee"
+msgstr "Rupia pakistańska"
+
+#: class/core-functions.php:293
+msgid "Polish z&#x142;oty"
+msgstr "Złoty polski"
+
+#: class/core-functions.php:294
+msgid "Transnistrian ruble"
+msgstr "Rubel naddniestrzański"
+
+#: class/core-functions.php:295
+msgid "Paraguayan guaran&iacute;"
+msgstr "Guarani paragwajski"
+
+#: class/core-functions.php:296
+msgid "Qatari riyal"
+msgstr "Rial katarski"
+
+#: class/core-functions.php:297
+msgid "Romanian leu"
+msgstr "Lej rumuński"
+
+#: class/core-functions.php:298
+msgid "Serbian dinar"
+msgstr "Dinar serbski"
+
+#: class/core-functions.php:299
+msgid "Russian ruble"
+msgstr "Rubel rosyjski"
+
+#: class/core-functions.php:300
+msgid "Rwandan franc"
+msgstr "Frank rwandyjski"
+
+#: class/core-functions.php:301
+msgid "Saudi riyal"
+msgstr "Rial saudyjski"
+
+#: class/core-functions.php:302
+msgid "Solomon Islands dollar"
+msgstr "Dolar Wysp Salomona"
+
+#: class/core-functions.php:303
+msgid "Seychellois rupee"
+msgstr "Rupia seszelska"
+
+#: class/core-functions.php:304
+msgid "Sudanese pound"
+msgstr "Funt sudański"
+
+#: class/core-functions.php:305
+msgid "Swedish krona"
+msgstr "Korona szwedzka"
+
+#: class/core-functions.php:306
+msgid "Singapore dollar"
+msgstr "Dolar singapurski"
+
+#: class/core-functions.php:307
+msgid "Saint Helena pound"
+msgstr "Funt świętoheleński"
+
+#: class/core-functions.php:308
+msgid "Sierra Leonean leone"
+msgstr "Leone sierraleoński"
+
+#: class/core-functions.php:309
+msgid "Somali shilling"
+msgstr "Szyling somalijski"
+
+#: class/core-functions.php:310
+msgid "Surinamese dollar"
+msgstr "Dolar surinamski"
+
+#: class/core-functions.php:311
+msgid "South Sudanese pound"
+msgstr "Funt sudański"
+
+#: class/core-functions.php:312
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "Dobra Wysp Świętego Tomasza i Książęcej"
+
+#: class/core-functions.php:313
+msgid "Syrian pound"
+msgstr "Funt syryjski"
+
+#: class/core-functions.php:314
+msgid "Swazi lilangeni"
+msgstr "Lilangeni Suazi"
+
+#: class/core-functions.php:315
+msgid "Thai baht"
+msgstr "Baht tajski"
+
+#: class/core-functions.php:316
+msgid "Tajikistani somoni"
+msgstr "Tajikistani somoni"
+
+#: class/core-functions.php:317
+msgid "Turkmenistan manat"
+msgstr "Manat turkmeński"
+
+#: class/core-functions.php:318
+msgid "Tunisian dinar"
+msgstr "Dinar tunezyjski"
+
+#: class/core-functions.php:319
+msgid "Tongan pa&#x2bb;anga"
+msgstr "Pa&#x2bb;anga tongijska"
+
+#: class/core-functions.php:320
+msgid "Turkish lira"
+msgstr "Lira turecka"
+
+#: class/core-functions.php:321
+msgid "Trinidad and Tobago dollar"
+msgstr "Dolar Trynidadu i Tobago"
+
+#: class/core-functions.php:322
+msgid "New Taiwan dollar"
+msgstr "Nowy dolar tajwański"
+
+#: class/core-functions.php:323
+msgid "Tanzanian shilling"
+msgstr "Szyling tanzański"
+
+#: class/core-functions.php:324
+msgid "Ukrainian hryvnia"
+msgstr "Hrywna ukraińska"
+
+#: class/core-functions.php:325
+msgid "Ugandan shilling"
+msgstr "Szyling ugandyjski"
+
+#: class/core-functions.php:326
+msgid "United States dollar"
+msgstr "Dolar amerykański"
+
+#: class/core-functions.php:327
+msgid "Uruguayan peso"
+msgstr "Peso urugwajskie"
+
+#: class/core-functions.php:328
+msgid "Uzbekistani som"
+msgstr "Som uzbecki"
+
+#: class/core-functions.php:329
+msgid "Venezuelan bol&iacute;var"
+msgstr "Wenezuelski bol&iacute;var"
+
+#: class/core-functions.php:330
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr "&#x111;&#x1ed3;ng wietnamski"
+
+#: class/core-functions.php:331
+msgid "Vanuatu vatu"
+msgstr "Vanuatu Vatu"
+
+#: class/core-functions.php:332
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "T&#x101;l&#x101; samoański"
+
+#: class/core-functions.php:333
+msgid "Central African CFA franc"
+msgstr "Frank CFA Afryki Centralnej"
+
+#: class/core-functions.php:334
+msgid "East Caribbean dollar"
+msgstr "Dolar wschodniokaraibski"
+
+#: class/core-functions.php:335
+msgid "West African CFA franc"
+msgstr "Frank CFA Afryki Zachodniej"
+
+#: class/core-functions.php:336
+msgid "CFP franc"
+msgstr "Frank CFP"
+
+#: class/core-functions.php:337
+msgid "Yemeni rial"
+msgstr "Rial jemeński"
+
+#: class/core-functions.php:338
+msgid "South African rand"
+msgstr "Rand południowoafrykański"
+
+#: class/core-functions.php:339
+msgid "Zambian kwacha"
+msgstr "Kwacha zambijska"
+
+#: class/core-functions.php:347
+msgid "USD"
+msgstr "USD"
+
+#: class/core-functions.php:350
+msgid "Left"
+msgstr "Po lewej"
+
+#: class/core-functions.php:351
+msgid "Right"
+msgstr "Po prawej"
+
+#: class/core-functions.php:352
+msgid "Left with space"
+msgstr "Po lewej ze spacją"
+
+#: class/core-functions.php:353
+msgid "Right with space"
+msgstr "Po prawej ze spacją"
+
+#: class/core-functions.php:444 class/core-functions.php:454
+#: class/core-functions.php:464
+msgctxt "Canadian Tax Rates"
+msgid "PST"
+msgstr "PST"
+
+#: class/core-functions.php:474
+msgctxt "Canadian Tax Rates"
+msgid "QST"
+msgstr "QST"
+
+#: class/core-functions.php:484 class/core-functions.php:491
+#: class/core-functions.php:498 class/core-functions.php:505
+#: class/core-functions.php:512
+msgctxt "Canadian Tax Rates"
+msgid "HST"
+msgstr "HST"
+
+#: class/core-functions.php:519 class/core-functions.php:526
+#: class/core-functions.php:533 class/core-functions.php:540
+#: class/core-functions.php:547 class/core-functions.php:554
+#: class/core-functions.php:561 class/core-functions.php:568
+msgctxt "Canadian Tax Rates"
+msgid "GST"
+msgstr "GST"
+
+#: class/core-functions.php:708
+msgid "Consumption tax"
+msgstr "Podatek konsumpcyjny"
+
+#: class/inspire/plugin3.php:199
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr "Wystąpił nieoczekiwany błąd HTTP podczas zapytania API.</p> <p><a href=„?” onclick=„document.location.reload(); return false;”>Spróbuj ponownie</a>"
+
+#: class/inspire/plugin3.php:204
+msgid "An unknown error occurred"
+msgstr "Wystąpił nieznany błąd"
+
+#: class/inspire/plugin3.php:310
+msgid "Ustawienia"
+msgstr "Ustawienia"
+
+#: class/inspire/plugin3.php:311
+msgid "Dokumentacja"
+msgstr "Dokumentacja"
+
+#: class/inspire/plugin3.php:312
+msgid "Wsparcie"
+msgstr "Wsparcie"
+
+#: class/invoicePost.php:218 class/invoicePostType.php:564
+msgid "View Invoice"
+msgstr "Zobacz fakturę"
+
+#: class/invoicePost.php:219 templates/invoice_edit/options_metabox.php:41
+msgid "Download Invoice"
+msgstr "Pobierz fakturę"
+
+#: class/invoicePost.php:383
+#: templates/settings/submenu_invoices_settings.php:120
+msgid "Invoice "
+msgstr "Faktura "
+
+#: class/invoicePostType.php:126 class/invoicePostType.php:129
+msgid "Invoice updated."
+msgstr "Faktura została zaktualizowana."
+
+#: class/invoicePostType.php:127
+msgid "Custom field updated."
+msgstr "Własne pole zostało zaktualizowane."
+
+#: class/invoicePostType.php:128
+msgid "Custom field deleted."
+msgstr "Własne pole zostało usunięte."
+
+#: class/invoicePostType.php:131
+msgid "Invoice issued."
+msgstr "Faktura została wystawiona."
+
+#: class/invoicePostType.php:132
+msgid "Invoice saved."
+msgstr "Faktura została zapisana."
+
+#: class/invoicePostType.php:133
+msgid "Invoice submitted."
+msgstr "Szkic faktury został zapisany."
+
+#: class/invoicePostType.php:148 class/invoicePostType.php:455
+#: templates/invoice_edit/payment_metabox.php:29
+msgid "Paid"
+msgstr "Zapłacone"
+
+#: class/invoicePostType.php:290
+msgid "All users"
+msgstr "Wszyscy użytkownicy"
+
+#: class/invoicePostType.php:345
+msgid "Overdue"
+msgstr "Przekroczony termin"
+
+#: class/invoicePostType.php:346
+msgid "All statuses"
+msgstr "Wszystkie statusy"
+
+#: class/invoicePostType.php:365 class/invoicePostType.php:940
+#: templates/invoice/generated_report.php:35
+#: templates/invoice_edit/client_metabox.php:31
+msgid "Customer"
+msgstr "Klient"
+
+#: class/invoicePostType.php:366 templates/invoice/generated_correction.php:174
+#: templates/invoice/generated_invoice.php:148
+#: templates/invoice_edit/products_metabox.php:29
+msgid "Net price"
+msgstr "Kwota netto"
+
+#: class/invoicePostType.php:367
+msgid "Gross price"
+msgstr "Kwota brutto"
+
+#: class/invoicePostType.php:368 templates/invoice_edit/options_metabox.php:25
+msgid "Issue date"
+msgstr "Data wystawienia"
+
+#: class/invoicePostType.php:371
+msgid "Order"
+msgstr "Zamówienie"
+
+#: class/invoicePostType.php:372 templates/invoice_edit/payment_metabox.php:34
+msgid "Payment status"
+msgstr "Status płatności"
+
+#: class/invoicePostType.php:374 templates/invoice_edit/options_metabox.php:30
+#: templates/settings/submenu_invoices_settings.php:150
+msgid "Date of sale"
+msgstr "Data sprzedaży"
+
+#: class/invoicePostType.php:375 templates/invoice_edit/payment_metabox.php:44
+#: templates/settings/submenu_invoices.php:13
+#: templates/settings/submenu_invoices_currency.php:92
+#: templates/settings/submenu_invoices_currency.php:106
+msgid "Currency"
+msgstr "Waluty"
+
+#: class/invoicePostType.php:376 templates/invoice_edit/payment_metabox.php:57
+msgid "Payment method"
+msgstr "Sposób płatności"
+
+#: class/invoicePostType.php:378
+msgid "Actions"
+msgstr "Akcje"
+
+#: class/invoicePostType.php:454
+msgid "Due"
+msgstr "Do zapłaty"
+
+#: class/invoicePostType.php:462 flexible-invoices.php:169
+#: templates/settings/submenu_invoices_settings.php:194
+msgid "Bank transfer"
+msgstr "Przelew bankowy"
+
+#: class/invoicePostType.php:463 flexible-invoices.php:170
+#: templates/settings/submenu_invoices_settings.php:194
+msgid "Cash"
+msgstr "Gotówka"
+
+#: class/invoicePostType.php:557 class/invoicePostType.php:559
+#: class/invoicePostType.php:561
+msgid "Invoices"
+msgstr "Faktury"
+
+#: class/invoicePostType.php:364 class/invoicePostType.php:560
+#: templates/invoice/generated_report.php:34
+msgid "Invoice"
+msgstr "Faktura"
+
+#: class/invoicePostType.php:563
+msgid "All Invoices"
+msgstr "Wszystkie faktury"
+
+#: class/invoicePostType.php:565
+msgid "Add New Invoice"
+msgstr "Dodaj nową fakturę"
+
+#: class/invoicePostType.php:566
+msgid "Add New"
+msgstr "Dodaj nową"
+
+#: class/invoicePostType.php:567
+msgid "Edit Invoice"
+msgstr "Edytuj fakturę"
+
+#: class/invoicePostType.php:568
+msgid "Save Invoice"
+msgstr "Zapisz fakturę"
+
+#: class/invoicePostType.php:569
+msgid "Search Invoices"
+msgstr "Szukaj faktur"
+
+#: class/invoicePostType.php:570
+msgid "No invoices found."
+msgstr "Nie znaleziono faktur."
+
+#: class/invoicePostType.php:571
+msgid "No invoices found in Trash."
+msgstr "Nie znaleziono faktur w koszu."
+
+#: class/invoicePostType.php:906
+msgid "This document does noe exist or was deleted."
+msgstr "Dokument nie istnieje lub został usunięty."
+
+#: class/invoicePostType.php:941
+msgid "Products"
+msgstr "Produkty"
+
+#: class/invoicePostType.php:942
+msgid "Payments and other info"
+msgstr "Płatności i informacje dodatkowe"
+
+#: class/invoicePostType.php:943
+msgid "Dates and actions"
+msgstr "Daty i akcje"
+
+#: class/invoicePostType.php:944
+msgid "Save/Issue"
+msgstr "Zapisz/Wystaw"
+
+#: class/invoiceSettings.php:19
+#: templates/settings/submenu_invoices_settings.php:80
+msgid "Invoices Settings"
+msgstr "Ustawienia faktur"
+
+#: class/invoiceSettings.php:19 flexible-invoices.php:330
+#: templates/settings/submenu_invoices.php:9
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: class/invoiceUser.php:25 templates/invoice_edit/client_metabox.php:99
+#: templates/invoice_edit/owner_metabox.php:35
+#: templates/settings/submenu_invoices_settings.php:40
+msgid "VAT Number"
+msgstr "NIP"
+
+#: class/wc-functions.php:37
+msgid "required"
+msgstr "wymagane"
+
+#: class/wc-functions.php:85
+msgid "Select a country&hellip;"
+msgstr "Wybierz kraj&hellip;"
+
+#: class/wc-functions.php:93
+msgid "Update country"
+msgstr "Aktualizuj kraj"
+
+#: class/wc-functions.php:114
+msgid "Select a state&hellip;"
+msgstr "Wybierz stan&hellip;"
+
+#: class/wc-functions.php:170
+msgid "Choose an option"
+msgstr "Wybierz opcje"
+
+#: flexible-invoices.php:304
+msgid "Please enter in decimal (%s) format without thousand separators."
+msgstr "Wprowadź w formacie dziesiętnym (%s), bez separatorów tysięcznych."
+
+#: flexible-invoices.php:305
+msgid "Please enter in monetary decimal (%s) format without thousand separators and currency symbols."
+msgstr "Wprowadź w formacie dziesiętnym waluty (%s) bez separatorów tysięcznych i symboli waluty."
+
+#: flexible-invoices.php:306
+msgid "Please enter in country code with two capital letters."
+msgstr "Proszę wpisać kod kraju z dwoma literami."
+
+#: flexible-invoices.php:307
+msgid "Please enter in a value less than the regular price."
+msgstr "Proszę podać wartość niższą niż cena normalna."
+
+#: flexible-invoices.php:331
+msgid "Docs"
+msgstr "Docs"
+
+#: flexible-invoices.php:332
+msgid "Support"
+msgstr "Wsparcie"
+
+#: templates/invoice/generated_correction.php:74
+#: templates/invoice/generated_invoice.php:66
+msgid "Issue date:"
+msgstr "Data wystawienia:"
+
+#: templates/invoice/generated_correction.php:76
+#: templates/invoice/generated_invoice.php:68
+msgid "Due date:"
+msgstr "Termin płatności:"
+
+#: templates/invoice/generated_correction.php:80
+#: templates/invoice/generated_invoice.php:72
+msgid "Payment method:"
+msgstr "Sposób płatności:"
+
+#: templates/invoice/generated_correction.php:94
+#: templates/invoice/generated_invoice.php:83
+msgid "Seller:"
+msgstr "Sprzedawca:"
+
+#: templates/invoice/generated_correction.php:103
+#: templates/invoice/generated_correction.php:145
+#: templates/invoice/generated_invoice.php:92
+#: templates/invoice/generated_invoice.php:134
+msgid "VAT Number:"
+msgstr "NIP:"
+
+#: templates/invoice/generated_correction.php:107
+#: templates/invoice/generated_invoice.php:96
+msgid "Bank:"
+msgstr "Bank:"
+
+#: templates/invoice/generated_correction.php:111
+#: templates/invoice/generated_invoice.php:100
+msgid "Account number:"
+msgstr "Numer konta:"
+
+#: templates/invoice/generated_correction.php:117
+#: templates/invoice/generated_invoice.php:106
+msgid "Buyer:"
+msgstr "Nabywca:"
+
+#: templates/invoice/generated_correction.php:166
+#: templates/invoice/generated_invoice.php:153
+msgid "#"
+msgstr "L.p."
+
+#: templates/invoice/generated_correction.php:167
+#: templates/invoice/generated_invoice.php:154
+#: templates/settings/submenu_invoices_tax.php:49
+msgid "Name"
+msgstr "Nazwa"
+
+#: templates/invoice/generated_correction.php:170
+#: templates/invoice/generated_invoice.php:156
+#: templates/invoice_edit/products_metabox.php:26
+msgid "SKU"
+msgstr "PKWiU/PKOB"
+
+#: templates/invoice/generated_correction.php:172
+#: templates/invoice/generated_invoice.php:158
+#: templates/invoice_edit/products_metabox.php:28
+msgid "Quantity"
+msgstr "Ilość"
+
+#: templates/invoice/generated_correction.php:173
+#: templates/invoice/generated_invoice.php:159
+#: templates/invoice_edit/products_metabox.php:27
+msgid "Unit"
+msgstr "J.m."
+
+#: templates/invoice/generated_correction.php:175
+#: templates/invoice/generated_invoice.php:149
+#: templates/invoice_edit/products_metabox.php:30
+msgid "Net amount"
+msgstr "Wartość netto"
+
+#: templates/invoice/generated_correction.php:178
+#: templates/invoice/generated_invoice.php:163
+#: templates/invoice_edit/products_metabox.php:31
+msgid "Tax rate"
+msgstr "Stawka VAT"
+
+#: templates/invoice/generated_correction.php:179
+#: templates/invoice/generated_invoice.php:164
+#: templates/invoice_edit/products_metabox.php:32
+msgid "Tax amount"
+msgstr "Kwota VAT"
+
+#: templates/invoice/generated_correction.php:180
+#: templates/invoice/generated_invoice.php:165
+#: templates/invoice_edit/products_metabox.php:33
+msgid "Gross amount"
+msgstr "Wartość brutto"
+
+#: templates/invoice/generated_correction.php:293
+#: templates/invoice/generated_invoice.php:229
+#: templates/invoice/generated_report.php:102
+#: templates/invoice_edit/payment_metabox.php:24
+msgid "Total"
+msgstr "Razem do zapłaty"
+
+#: templates/invoice/generated_correction.php:315
+#: templates/invoice/generated_invoice.php:251
+msgid "Including"
+msgstr "W tym"
+
+#: templates/invoice/generated_correction.php:331
+#: templates/invoice/generated_invoice.php:267
+msgid "Paid:"
+msgstr "Zapłacono:"
+
+#: templates/invoice/generated_correction.php:332
+#: templates/invoice/generated_invoice.php:268
+msgid "Due:"
+msgstr "Pozostało do zapłaty:"
+
+#: templates/invoice/generated_correction.php:356
+#: templates/invoice/generated_invoice.php:292
+msgid "Buyer signature"
+msgstr "Podpis nabywcy"
+
+#: templates/invoice/generated_correction.php:360
+#: templates/invoice/generated_invoice.php:298
+msgid "Seller signature"
+msgstr "Podpis sprzedawcy"
+
+#: templates/invoice/generated_correction.php:369
+#: templates/invoice/generated_invoice.php:308
+#: templates/invoice_edit/payment_metabox.php:86
+msgid "Notes"
+msgstr "Uwagi"
+
+#: templates/invoice/generated_invoice.php:317
+msgid "Order number:"
+msgstr "Numer zamówienia:"
+
+#: templates/invoice/generated_report.php:6
+msgid "Report"
+msgstr "Raport"
+
+#: templates/invoice/generated_report.php:29
+msgid "Report:"
+msgstr "Raport:"
+
+#: templates/invoice/generated_report.php:36
+msgid "Net value"
+msgstr "Wartość netto"
+
+#: templates/invoice/generated_report.php:37
+msgid "Tax value"
+msgstr "Kwota VAT"
+
+#: templates/invoice/generated_report.php:38
+msgid "Gross value"
+msgstr "Wartość brutto"
+
+#: templates/invoice_edit/client_metabox.php:34
+msgid "Select"
+msgstr "Wybierz"
+
+#: templates/invoice_edit/client_metabox.php:75
+msgid "Fetch client data"
+msgstr "Pobierz dane klienta"
+
+#: templates/invoice_edit/client_metabox.php:79
+msgid "Client Name"
+msgstr "Nazwa klienta"
+
+#: templates/invoice_edit/client_metabox.php:84
+msgid "Address"
+msgstr "Adres"
+
+#: templates/invoice_edit/client_metabox.php:89
+msgid "Zip code"
+msgstr "Kod pocztowy"
+
+#: templates/invoice_edit/client_metabox.php:94
+msgid "City"
+msgstr "Miasto"
+
+#: templates/invoice_edit/client_metabox.php:104
+msgid "Country"
+msgstr "Państwo"
+
+#: templates/invoice_edit/client_metabox.php:109
+msgid "Phone"
+msgstr "Telefon"
+
+#: templates/invoice_edit/client_metabox.php:114
+msgid "Email"
+msgstr "E-mail"
+
+#: templates/invoice_edit/options_metabox.php:40
+msgid "Print Invoice"
+msgstr "Drukuj fakturę"
+
+#: templates/invoice_edit/payment_metabox.php:63
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: templates/invoice_edit/payment_metabox.php:72
+msgid "Standard"
+msgstr "Standard"
+
+#: templates/invoice_edit/products_metabox.php:25
+msgid "Product"
+msgstr "Produkt"
+
+#: templates/invoice_edit/products_metabox.php:57
+#: templates/invoice_edit/products_metabox.php:92
+msgid "Delete product"
+msgstr "Usuń produkt"
+
+#: templates/invoice_edit/products_metabox.php:100
+msgid "Add product"
+msgstr "Dodaj produkt"
+
+#: templates/settings/submenu_invoices.php:17
+#: templates/settings/submenu_invoices_tax.php:35
+msgid "Tax rates"
+msgstr "Stawki podatkowe"
+
+#: templates/settings/submenu_invoices.php:21
+#: templates/settings/submenu_invoices_reports.php:40
+msgid "Reports"
+msgstr "Raporty"
+
+#: templates/settings/submenu_invoices.php:25
+#: templates/settings/submenu_invoices_generate.php:30
+msgid "Download"
+msgstr "Pobierz"
+
+#: templates/settings/submenu_invoices.php:67
+msgid "WooCommerce Integration"
+msgstr "Integracja z WooCommerce"
+
+#: templates/settings/submenu_invoices.php:71
+msgid "Using WooCommerce? Make sure to check our invoicing plugin - %sFlexible Invoices for WooCommerce%s."
+msgstr "Używasz WooCommerce? Sprawdź naszą wtyczkę do fakturowania - %sFaktury dla WooCommerce%s."
+
+#: templates/settings/submenu_invoices.php:71
+msgid "https://www.wpdesk.net/products/flexible-invoices-woocommerce/"
+msgstr "https://www.wpdesk.pl/sklep/faktury-woocommerce/"
+
+#: templates/settings/submenu_invoices.php:79
+msgid "Get more WP Desk Plugins!"
+msgstr "Wtyczki WP Desk"
+
+#: templates/settings/submenu_invoices.php:83
+msgid "https://www.wpdesk.net/products/flexible-shipping-pro-woocommerce/"
+msgstr "https://www.wpdesk.pl/sklep/flexible-shipping-pro-woocommerce/"
+
+#: templates/settings/submenu_invoices.php:83
+msgid "Flexible Shipping"
+msgstr "Flexible Shipping"
+
+#: templates/settings/submenu_invoices.php:83
+msgid "Create shipping methods based on weight, totals and more."
+msgstr "Twórz metody wysyłki oparte na wadze, wartości zamówienia i nie tylko."
+
+#: templates/settings/submenu_invoices.php:85
+msgid "https://www.wpdesk.net/products/active-payments-woocommerce/"
+msgstr "https://www.wpdesk.pl/sklep/aktywne-platnosci-woocommerce/"
+
+#: templates/settings/submenu_invoices.php:85
+msgid "Active Payments"
+msgstr "Aktywne Płatności"
+
+#: templates/settings/submenu_invoices.php:85
+msgid "Conditionally display payment methods based on shipping."
+msgstr "Warunkowo wyświetlaj metody płatności oparte na wysyłce."
+
+#: templates/settings/submenu_invoices.php:87
+msgid "https://www.wpdesk.net/products/woocommerce-checkout-fields/"
+msgstr "https://www.wpdesk.pl/sklep/woocommerce-checkout-fields/"
+
+#: templates/settings/submenu_invoices.php:87
+msgid "Flexible Checkout Fields"
+msgstr "Edycja pól zamówienia"
+
+#: templates/settings/submenu_invoices.php:87
+msgid "Manage WooCommerce checkout fields and add your own."
+msgstr "Zarządzaj polami zamówienia WooCommerce i dodawaj nowe pola."
+
+#: templates/settings/submenu_invoices_corrections.php:9
+#: templates/settings/submenu_invoices_currency.php:89
+#: templates/settings/submenu_invoices_settings.php:9
+#: templates/settings/submenu_invoices_tax.php:32
+msgid "Settings saved."
+msgstr "Ustawienia zostały zapisane."
+
+#: templates/settings/submenu_invoices_corrections.php:14
+#: templates/settings/submenu_invoices_currency.php:94
+#: templates/settings/submenu_invoices_settings.php:14
+#: templates/settings/submenu_invoices_tax.php:37
+msgid "Read user's manual &rarr;"
+msgstr "Przeczytaj instrukcję użytkownika &rarr;"
+
+#: templates/settings/submenu_invoices_currency.php:109
+msgid "Currency position"
+msgstr "Pozycja waluty"
+
+#: templates/settings/submenu_invoices_currency.php:112
+msgid "Thousand separator"
+msgstr "Separator tysięcy"
+
+#: templates/settings/submenu_invoices_currency.php:115
+msgid "Decimal separator"
+msgstr "Separator dziesiętny"
+
+#: templates/settings/submenu_invoices_currency.php:193
+msgid "Insert currency"
+msgstr "Dodaj walutę"
+
+#: templates/settings/submenu_invoices_currency.php:194
+msgid "Delete selected currency"
+msgstr "Usuń wybrane waluty"
+
+#: templates/settings/submenu_invoices_corrections.php:93
+#: templates/settings/submenu_invoices_currency.php:210
+#: templates/settings/submenu_invoices_settings.php:203
+#: templates/settings/submenu_invoices_tax.php:114
+msgid "Save changes"
+msgstr "Zapisz zmiany"
+
+#: templates/settings/submenu_invoices_currency.php:257
+#: templates/settings/submenu_invoices_tax.php:152
+msgid "No rows selected."
+msgstr "Nie zaznaczono wierszy."
+
+#: templates/settings/submenu_invoices_currency.php:262
+#: templates/settings/submenu_invoices_tax.php:157
+msgid "Are you sure?"
+msgstr "Jesteś pewien?"
+
+#: templates/settings/submenu_invoices_generate.php:6
+msgid "Generate Invoices"
+msgstr "Wygeneruj faktury"
+
+#: templates/settings/submenu_invoices_generate.php:10
+#: templates/settings/submenu_invoices_reports.php:65
+msgid "Generate"
+msgstr "Wygeneruj"
+
+#: templates/settings/submenu_invoices_generate.php:18
+msgid "Download Invoices"
+msgstr "Pobierz faktury"
+
+#: templates/settings/submenu_invoices_generate.php:20
+msgid "If the download fails select smaller date range and try again."
+msgstr "Jeśli pojawią się problemy z pobraniem faktur, wybierz mniejszy zakres dat i spróbuj ponownie."
+
+#: templates/settings/submenu_invoices_generate.php:23
+#: templates/settings/submenu_invoices_reports.php:43
+msgid "From:"
+msgstr "Od:"
+
+#: templates/settings/submenu_invoices_generate.php:26
+#: templates/settings/submenu_invoices_reports.php:46
+msgid "To:"
+msgstr "Do:"
+
+#: templates/settings/submenu_invoices_settings.php:12
+msgid "General Settings"
+msgstr "Ustawienia główne"
+
+#: templates/invoice_edit/owner_metabox.php:20
+#: templates/settings/submenu_invoices_settings.php:20
+msgid "Company Name"
+msgstr "Nazwa firmy"
+
+#: templates/invoice_edit/owner_metabox.php:30
+#: templates/settings/submenu_invoices_settings.php:30
+msgid "Company Address"
+msgstr "Adres firmy"
+
+#: templates/invoice_edit/owner_metabox.php:25
+#: templates/settings/submenu_invoices_settings.php:50
+msgid "Logo"
+msgstr "Logo"
+
+#: templates/settings/submenu_invoices_settings.php:54
+msgid "Enter Logo URL which will be used on PDF invoices. Upload logo via <a href=\"%s\" target=\"_blank\">media uploader</a>."
+msgstr "Wpisz adres URL do logo, które będzie użyte na fakturze. Prześlij logo wykorzystując <a href=\"%s\" target=\"_blank\">wgrywanie mediów</a>."
+
+#: templates/invoice_edit/owner_metabox.php:40
+#: templates/settings/submenu_invoices_settings.php:60
+msgid "Bank Name"
+msgstr "Nazwa banku"
+
+#: templates/invoice_edit/owner_metabox.php:45
+#: templates/settings/submenu_invoices_settings.php:70
+msgid "Bank Account Number"
+msgstr "Numer konta"
+
+#: templates/settings/submenu_invoices_settings.php:82
+msgid "For prefixes and suffixes use the following short tags:"
+msgstr "Dla prefiksów i sufiksów możesz używać następujących skrótów:"
+
+#: templates/settings/submenu_invoices_settings.php:82
+msgid "for day"
+msgstr "dla dnia"
+
+#: templates/settings/submenu_invoices_settings.php:82
+msgid "for month"
+msgstr "dla miesiąca"
+
+#: templates/settings/submenu_invoices_settings.php:82
+msgid "for year"
+msgstr "dla roku"
+
+#: templates/settings/submenu_invoices_settings.php:105
+msgid "Next Invoice Number"
+msgstr "Numer następnej faktury"
+
+#: templates/settings/submenu_invoices_settings.php:110
+msgid "Enter the next invoice number. Default value is 1 and changes every time an invoice is issued. Existing invoices won't be changed."
+msgstr "Wpisz numer następnej faktury. Domyślna wartość to 1 i zmienia się za każdym razem, gdy wystawiana jest faktura. Numery istniejących faktur nie zostaną zmienione."
+
+#: templates/settings/submenu_invoices_settings.php:116
+msgid "Invoice Prefix"
+msgstr "Prefiks faktury"
+
+#: templates/settings/submenu_invoices_settings.php:126
+msgid "Invoice Suffix"
+msgstr "Sufiks faktury"
+
+#: templates/settings/submenu_invoices_settings.php:136
+msgid "Default Due Time"
+msgstr "Domyślny termin płatności"
+
+#: templates/settings/submenu_invoices_settings.php:140
+msgid "days"
+msgstr "dni"
+
+#: templates/settings/submenu_invoices_settings.php:146
+msgid "Label for Date of Sale"
+msgstr "Etykieta daty sprzedaży"
+
+#: templates/settings/submenu_invoices_settings.php:151
+msgid "Enter the label for &quot;date of sale&quot; visible on the PDF invoice, i.e. &quot;date of delivery&quot;. It will be used on all new and edited invoices."
+msgstr "Wpisz etykietę dla &quot;daty sprzedaży&quot; na fakturze, np. &quot;data dostawy&quot;. Wpisana nazwa zostanie użyta na wszystkich nowych i edytowanych fakturach."
+
+#: templates/settings/submenu_invoices_settings.php:157
+msgid "Invoice Notes"
+msgstr "Uwagi na fakturze"
+
+#: templates/settings/submenu_invoices_settings.php:166
+msgid "Show Signatures"
+msgstr "Pokaż podpisy na fakturze"
+
+#: templates/settings/submenu_invoices_settings.php:169
+msgid "Enable if you want to display place for signatures."
+msgstr "Zaznacz jeśli chcesz, żeby na fakturze pojawiło się miejsce na odręczne podpisy."
+
+#: templates/settings/submenu_invoices_settings.php:174
+msgid "Tax Cells on Invoices"
+msgstr "Rubryki podatku na fakturze"
+
+#: templates/settings/submenu_invoices_settings.php:177
+msgid "If tax is 0 hide all tax cells on PDF invoices."
+msgstr "Jeśli kwota podatku wynosi 0, ukryj wszystkie rubryki związane z podatkami na fakturze PDF."
+
+#: templates/settings/submenu_invoices_settings.php:182
+msgid "Seller's VAT Number on Invoices"
+msgstr "NIP sprzedawcy na fakturze"
+
+#: templates/settings/submenu_invoices_settings.php:185
+msgid "If tax is 0 hide seller's VAT Number on PDF invoices."
+msgstr "Jeśli kwota podatku wynosi 0, ukryj NIP sprzedawcy na fakturze PDF."
+
+#: templates/settings/submenu_invoices_settings.php:190
+msgid "Payment Methods"
+msgstr "Metody płatności"
+
+#: templates/settings/submenu_invoices_tax.php:52
+msgid "Rate"
+msgstr "Stawka"
+
+#: templates/settings/submenu_invoices_tax.php:97
+msgid "Insert rate"
+msgstr "Dodaj stawkę"
+
+#: templates/settings/submenu_invoices_tax.php:98
+msgid "Delete selected rate"
+msgstr "Usuń zaznaczone stawki"
+
+#. Plugin Name of the plugin/theme
+msgid "Flexible Invoices for WordPress"
+msgstr "Faktury dla WordPressa"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/flexible-invoices/"
+msgstr "https://pl.wordpress.org/plugins/flexible-invoices/"
+
+#. Description of the plugin/theme
+msgid "Invoicing for WordPress made simple. Available <a href=\"https://www.wpdesk.net/products/flexible-invoices-woocommerce/\" target=\"_blank\">extension for WooCommerce</a>."
+msgstr "Proste fakturowanie dla WordPressa. Dostępna <a href=\"https://www.wpdesk.pl/sklep/faktury-woocommerce/\" target=\"_blank\">integracja z WooCommerce</a>."
+
+#. Author of the plugin/theme
+msgid "WP Desk"
+msgstr "WP Desk"
+
+#. Author URI of the plugin/theme
+msgid "https://www.wpdesk.net/"
+msgstr "https://www.wpdesk.pl/"
+
+#: class/invoicePostType.php:369 templates/invoice_edit/options_metabox.php:35
+msgid "Due date"
+msgstr "Termin płatności"
+
+#: templates/invoice/generated_correction.php:330
+#: templates/invoice/generated_invoice.php:266
+msgid "Total:"
+msgstr "Razem do zapłaty:"
+
+#: class/invoicePostType.php:134
+msgid "Invoice scheduled"
+msgstr "Wystawienie faktury zostało zaplanowane"
+
+#: class/invoicePostType.php:135
+msgid "Invoice draft updated"
+msgstr "Szkic faktury został zaktualizowany"
+
+#: class/invoicePostType.php:464 flexible-invoices.php:171
+#: inc/wpdesk-tracker/views/tracker-deactivate.php:67
+#: templates/settings/submenu_invoices_settings.php:194
+msgid "Other"
+msgstr "Inne"
+
+#: templates/settings/submenu_invoices_generate.php:8
+msgid "If you used the plugin before version 3.0 make sure to generate invoices before donwloading them. This operation needs to be done just once. It may take a while."
+msgstr "Jeśli używałeś wtyczki przed wersją 3.0 i chcesz pobrać faktury hurtowo w pliku ZIP, najpierw wygeneruj wszystkie faktury. Wystarczy wykonać tę operację jeden raz. Jeśli masz dużo faktur, generowanie może potrwać nawet kilka minut."

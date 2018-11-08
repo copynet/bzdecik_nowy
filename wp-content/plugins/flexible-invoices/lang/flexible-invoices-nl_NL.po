@@ -1,0 +1,452 @@
+# Translation of Flexible Invoices in Dutch
+# This file is distributed under the same license as the Flexible Invoices package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Flexible Invoices\n"
+"POT-Creation-Date: 2017-10-23 10:29+0200\n"
+"PO-Revision-Date: 2017-10-23 10:32+0200\n"
+"Last-Translator: Piotr Jabłonowski <piotr.jablonowski@wpdesk.net>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#~ msgid "Download Invoice"
+#~ msgstr "Download Factuur"
+
+#~ msgid "Actions"
+#~ msgstr "Acties"
+
+#~ msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+#~ msgstr "Een Onverwachte HTTP-fout opgetreden tijdens de API verzoek.</p> <p><a href=\"?\" onclick= \"document.location.reload(); return false;\">Probeer opnieuw</a>"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "Er is een onbekende fout opgetreden"
+
+#~ msgid "Ustawienia"
+#~ msgstr "Instellingen"
+
+#~ msgid "Dokumentacja"
+#~ msgstr "Documentatie"
+
+#~ msgid "Wsparcie"
+#~ msgstr "Ondersteuning"
+
+#~ msgid "Invoice "
+#~ msgstr "Factuur"
+
+#~ msgid "Invoice updated."
+#~ msgstr "Factuur geüpdatet."
+
+#~ msgid "Custom field updated."
+#~ msgstr "Aangepast veld geüpdatet."
+
+#~ msgid "Custom field deleted."
+#~ msgstr "Aangepast veld verwijderd"
+
+#~ msgid " rolled back to revision %s."
+#~ msgstr "hersteld naar revisie %s."
+
+#~ msgid "Invoice issued."
+#~ msgstr "Factuur uitgereikt."
+
+#~ msgid "Invoice saved."
+#~ msgstr "Factuur opgeslagen."
+
+#~ msgid "Invoice submitted."
+#~ msgstr "Factuur ingediend."
+
+#~ msgid "Invoice scheduled"
+#~ msgstr "Factuur gepland"
+
+#~ msgid "Invoice draft updated"
+#~ msgstr "Factuur concept geüpdatet"
+
+#~ msgid "Paid"
+#~ msgstr "Betaald"
+
+#~ msgid "All users"
+#~ msgstr "Alle gebruikers"
+
+#~ msgid "Overdue"
+#~ msgstr "Te laat"
+
+#~ msgid "All statuses"
+#~ msgstr "Alle statussen"
+
+#~ msgid "Customer"
+#~ msgstr "Klant"
+
+#~ msgid "Net price"
+#~ msgstr "Nettoprijs"
+
+#~ msgid "Gross price"
+#~ msgstr "Brutoprijs"
+
+#~ msgid "Issue date"
+#~ msgstr "Uitgiftedatum"
+
+#~ msgid "Due date"
+#~ msgstr "Vervaldatum"
+
+#~ msgid "Order"
+#~ msgstr "Bestelling"
+
+#~ msgid "Payment status"
+#~ msgstr "Betalingsstatus"
+
+#~ msgid "Date of sale"
+#~ msgstr "Verkoopdatum"
+
+#~ msgid "Currency"
+#~ msgstr "Valuta"
+
+#~ msgid "Payment method"
+#~ msgstr "Betaalmethode"
+
+#~ msgid "Due"
+#~ msgstr "Verschuldigd"
+
+#~ msgid "Bank transfer"
+#~ msgstr "Bankoverschrijving"
+
+#~ msgid "Cash"
+#~ msgstr "Contant"
+
+#~ msgid "Other"
+#~ msgstr "Anders/andere"
+
+#~ msgid "Invoices"
+#~ msgstr "Facturen"
+
+#~ msgid "Invoice"
+#~ msgstr "Factuur"
+
+#~ msgid "All Invoices"
+#~ msgstr "Alle facturen"
+
+#~ msgid "View Invoice"
+#~ msgstr "Bekijk factuur"
+
+#~ msgid "Add New Invoice"
+#~ msgstr "Voeg een nieuwe factuur"
+
+#~ msgid "Add New"
+#~ msgstr "Voeg nieuwe"
+
+#~ msgid "Edit Invoice"
+#~ msgstr "Bewerk factuur"
+
+#~ msgid "Save Invoice"
+#~ msgstr "Factuur opslaan"
+
+#~ msgid "Search Invoices"
+#~ msgstr "Zoek facturen"
+
+#~ msgid "No invoices found."
+#~ msgstr "Geen facturen gevonden."
+
+#~ msgid "No invoices found in Trash."
+#~ msgstr "Geen facturen in de prullenbak gevonden."
+
+#~ msgid "This document does noe exist or was deleted."
+#~ msgstr "Dit document bestaat niet of werd verwijderd."
+
+#~ msgid "Products"
+#~ msgstr "Producten"
+
+#~ msgid "Payments and other info"
+#~ msgstr "Betalingen en andere gegevens"
+
+#~ msgid "Dates and actions"
+#~ msgstr "Datums en acties"
+
+#~ msgid "Save/Issue"
+#~ msgstr "Opslaan/uitgeven"
+
+#~ msgid "Invoices Settings"
+#~ msgstr "Factuurinstellingen "
+
+#~ msgid "Settings"
+#~ msgstr "Instellingen"
+
+#~ msgid "VAT Number"
+#~ msgstr "BTW-nummer"
+
+#~ msgid "<a href=\"%s\">Install the WP Desk Helper plugin</a> to activate and get updates for your WP Desk plugins."
+#~ msgstr "<a href=\"%s\">Installeer de WP Desk Helper plugin</a> om te activeren en updates krijgen voor uw WP Desk plugins."
+
+#~ msgid "<a href=\"%s\">Activate the WP Desk Helper plugin</a> to activate and get updates for your WP Desk plugins."
+#~ msgstr "<a href=\"%s\">Activeer de WP Desk Helper plugin</a> om te activeren en updates krijgen voor uw WP Desk plugins."
+
+#~ msgid "The %s%s%s License Key has not been activated, so the plugin is inactive! %sClick here%s to activate the license key and the plugin."
+#~ msgstr "De %s%s%s Licentiesleutel is niet geactiveerd, dus de plugin is niet actief! %sKlik hier%s om de licentiesleutel en de plugin te activeren."
+
+#~ msgid "Docs"
+#~ msgstr "Documenten"
+
+#~ msgid "Support"
+#~ msgstr "Ondersteuning"
+
+#~ msgid "Date of sale:"
+#~ msgstr "Verkoopdatum:"
+
+#~ msgid "Issue date:"
+#~ msgstr "Uitgiftedatum:"
+
+#~ msgid "Due date:"
+#~ msgstr "Vervaldatum:"
+
+#~ msgid "Payment method:"
+#~ msgstr "Betaalmethode:"
+
+#~ msgid "Seller:"
+#~ msgstr "Verkoper:"
+
+#~ msgid "VAT Number:"
+#~ msgstr "BTW-nummer:"
+
+#~ msgid "Bank:"
+#~ msgstr "Bank:"
+
+#~ msgid "Account number:"
+#~ msgstr "Rekeningnummer:"
+
+#~ msgid "Buyer:"
+#~ msgstr "Koper:"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Name"
+#~ msgstr "Naam"
+
+#~ msgid "SKU"
+#~ msgstr "Voorraadeenheid"
+
+#~ msgid "Quantity"
+#~ msgstr "Hoeveelheid"
+
+#~ msgid "Unit"
+#~ msgstr "Eenheid"
+
+#~ msgid "Net amount"
+#~ msgstr "Nettobedrag"
+
+#~ msgid "Tax rate"
+#~ msgstr "Belastingtarief"
+
+#~ msgid "Tax amount"
+#~ msgstr "Belastingbedrag"
+
+#~ msgid "Gross amount"
+#~ msgstr "Brutobedrag"
+
+#~ msgid "Total"
+#~ msgstr "Totaal"
+
+#~ msgid "Including"
+#~ msgstr "Inclusief"
+
+#~ msgid "Total:"
+#~ msgstr "Totaal:"
+
+#~ msgid "Paid:"
+#~ msgstr "Betaald:"
+
+#~ msgid "Due:"
+#~ msgstr "Verschuldigd:"
+
+#~ msgid "Buyer signature"
+#~ msgstr "Handtekening koper:"
+
+#~ msgid "Seller signature"
+#~ msgstr "Handtekening verkoper"
+
+#~ msgid "Notes"
+#~ msgstr "Aantekeningen"
+
+#~ msgid "Order number:"
+#~ msgstr "Bestellingnummer:"
+
+#~ msgid "Report"
+#~ msgstr "Verslag"
+
+#~ msgid "Report:"
+#~ msgstr "Verslag:"
+
+#~ msgid "Net value"
+#~ msgstr "Nettowaarde"
+
+#~ msgid "Tax value"
+#~ msgstr "BTW"
+
+#~ msgid "Gross value"
+#~ msgstr "Brutowaarde"
+
+#~ msgid "Select"
+#~ msgstr "Selecteer"
+
+#~ msgid "Fetch client data"
+#~ msgstr "Haal klantgegevens op"
+
+#~ msgid "Client Name"
+#~ msgstr "Naam klant"
+
+#~ msgid "Address"
+#~ msgstr "Adres"
+
+#~ msgid "Zip code"
+#~ msgstr "Postcode"
+
+#~ msgid "City"
+#~ msgstr "Plaats"
+
+#~ msgid "Country"
+#~ msgstr "Land"
+
+#~ msgid "Phone"
+#~ msgstr "Telefoonnummer"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Print Invoice"
+#~ msgstr "Factuur printen"
+
+#~ msgid "Product"
+#~ msgstr "Product"
+
+#~ msgid "Delete product"
+#~ msgstr "Product verwijderen"
+
+#~ msgid "Add product"
+#~ msgstr "Product toevoegen"
+
+#~ msgid "Reports"
+#~ msgstr "Verslaggen"
+
+#~ msgid "Download"
+#~ msgstr "Download"
+
+#~ msgid "Generate Invoices"
+#~ msgstr "Factuur genereren"
+
+#~ msgid "If you used the plugin before version 3.0 make sure to generate invoices before donwloading them. This operation needs to be done just once. It may take w while."
+#~ msgstr "Hebt u de plugin gebruikt voor de 3.0 versie, zorg dan ervoor dat u de facturen genereert voor deze gedownload worden. Deze handeling moet slechts één keer worden gedaan. Het kan even duren."
+
+#~ msgid "Generate"
+#~ msgstr "Genereer"
+
+#~ msgid "Download Invoices"
+#~ msgstr "Download facturen"
+
+#~ msgid "If the download fails select smaller date range and try again."
+#~ msgstr "Als het downloaden mislukt selecteer kleinere hoeveelheid gegevens en probeer opnieuw."
+
+#~ msgid "From:"
+#~ msgstr "Van:"
+
+#~ msgid "To:"
+#~ msgstr "Tot:"
+
+#~ msgid "Settings saved."
+#~ msgstr "Instellingen opgeslagen."
+
+#~ msgid "General Settings"
+#~ msgstr "Algemene Instellingen"
+
+#~ msgid "Read user's manual &rarr;"
+#~ msgstr "Lees gebruikershandleiding &rarr;"
+
+#~ msgid "Company Name"
+#~ msgstr "Bedrijfsnaam"
+
+#~ msgid "Company Address"
+#~ msgstr "Bedrijfsadres"
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Enter Logo URL which will be used on PDF invoices. Upload logo via <a href=\"%s\" target=\"_blank\">media uploader</a>."
+#~ msgstr "Voer Logo URL die gebruikt zal worden op PDF facturen. Upload logo via <a href=\"%s\" target=\"_blank\">media uploader</a>."
+
+#~ msgid "Bank Name"
+#~ msgstr "Banknaam"
+
+#~ msgid "Bank Account Number"
+#~ msgstr "Bankrekeningnummer"
+
+#~ msgid "For prefixes and suffixes use the following short tags:"
+#~ msgstr "Voor voor- en/of achtervoegsels gebruik de volgende shortcodes:"
+
+#~ msgid "for day"
+#~ msgstr "voor een dag"
+
+#~ msgid "for month"
+#~ msgstr "voor een maand"
+
+#~ msgid "for year"
+#~ msgstr "voor een jaar"
+
+#~ msgid "Next Invoice Number"
+#~ msgstr "Volgende factuurnummer"
+
+#~ msgid "Enter the next invoice number. Default value is 1 and changes every time an invoice is issued. Existing invoices won't be changed."
+#~ msgstr "Voeg in de volgende factuurnummer. Standaardwaarde is 1 en verandert elke keer als factuur wordt uitgegeven. Bestaande facturen veranderen niet."
+
+#~ msgid "Invoice Prefix"
+#~ msgstr "Factuur voorvoegsel"
+
+#~ msgid "Invoice Suffix"
+#~ msgstr "Factuur achtervoegsel"
+
+#~ msgid "Default Due Time"
+#~ msgstr "Standaard betaaltermijn"
+
+#~ msgid "days"
+#~ msgstr "dagen"
+
+#~ msgid "Invoice Notes"
+#~ msgstr "Factuur aantekeningen"
+
+#~ msgid "Show Signatures"
+#~ msgstr "Laat handtekeningen zien"
+
+#~ msgid "Enable if you want to display place for signatures."
+#~ msgstr "Inschakelen als u handtekeningsgebied wilt tonen."
+
+#~ msgid "Tax Cells on Invoices"
+#~ msgstr "Belasting cellen op facturen"
+
+#~ msgid "If tax is 0 hide all tax cells on PDF invoices."
+#~ msgstr "Als belasting 0 is, verberg dan alle belasting cellen op PDF facturen."
+
+#~ msgid "Seller's VAT Number on Invoices"
+#~ msgstr "BTW-nummer van verkoper op facturen"
+
+#~ msgid "If tax is 0 hide seller's VAT Number on PDF invoices."
+#~ msgstr "Als belasting 0 is, verberg dan BTW-nummer van de verkoper op de PDF facturen."
+
+#~ msgid "Save changes"
+#~ msgstr "Wijzigingen opslaan"
+
+#~ msgid "Flexible Invoices by WP Desk"
+#~ msgstr "Flexibele facturen van WP Desk"
+
+#~ msgid "http://www.wpdesk.pl/sklep/faktury-wordpress/"
+#~ msgstr "http://www.wpdesk.pl/sklep/faktury-wordpress/"
+
+#~ msgid "WordPress Invoices with WooCommerce integration."
+#~ msgstr "WordPress Facturen met WooCommerce integratie."
+
+#~ msgid "WP Desk"
+#~ msgstr "WP Desk"
+
+#~ msgid "http://www.wpdesk.pl/"
+#~ msgstr "https://www.wpdesk.net/"
